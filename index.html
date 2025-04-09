@@ -478,7 +478,6 @@
 
 <!-- work project section starts -->
 
-
 <section class="work" id="work">
   <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Works</span></h2>
 
@@ -502,101 +501,106 @@
     </div>
   </div>
 
- <!-- Enhanced Attractive Separator -->
-<div class="separator-wrapper">
-  <div class="separator">
-    <div class="separator-line left-line"></div>
-    <div class="separator-icon">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-certificate pulse"></i>
-      <i class="fas fa-star"></i>
+  <!-- Enhanced Attractive Separator -->
+  <div class="separator-wrapper">
+    <div class="separator">
+      <div class="separator-line left-line"></div>
+      <div class="separator-icon">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-certificate pulse"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="separator-line right-line"></div>
     </div>
-    <div class="separator-line right-line"></div>
   </div>
-</div>
 
-<style>
-  .separator-wrapper {
-    margin: 40px 0;
-    position: relative;
-    overflow: hidden;
-  }
+  <style>
+    .separator-wrapper {
+      margin: 40px 0;
+      position: relative;
+      overflow: hidden;
+    }
 
-  .separator {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
+    .separator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
 
-  .separator-line {
-    height: 3px;
-    flex-grow: 1;
-    max-width: 250px;
-    position: relative;
-    overflow: hidden;
-  }
+    .separator-line {
+      height: 3px;
+      flex-grow: 1;
+      max-width: 250px;
+      position: relative;
+      overflow: hidden;
+    }
 
-  .left-line {
-    background: linear-gradient(90deg, transparent, #6e45e2, #88d3ce);
-    animation: slideLeft 2.5s infinite;
-  }
+    .left-line {
+      background: linear-gradient(90deg, transparent, #6e45e2, #88d3ce);
+      animation: slideLeft 2.5s infinite;
+    }
 
-  .right-line {
-    background: linear-gradient(90deg, #88d3ce, #6e45e2, transparent);
-    animation: slideRight 2.5s infinite;
-  }
+    .right-line {
+      background: linear-gradient(90deg, #88d3ce, #6e45e2, transparent);
+      animation: slideRight 2.5s infinite;
+    }
 
-  .separator-icon {
-    margin: 0 25px;
-    display: flex;
-    gap: 15px;
-  }
+    .separator-icon {
+      margin: 0 25px;
+      display: flex;
+      gap: 15px;
+    }
 
-  .separator-icon i {
-    color: #6e45e2;
-    font-size: 22px;
-    position: relative;
-  }
+    .separator-icon i {
+      color: #6e45e2;
+      font-size: 22px;
+      position: relative;
+    }
 
-  .separator-icon .fa-certificate {
-    font-size: 28px;
-    color: #ff9a9e;
-  }
+    .separator-icon .fa-certificate {
+      font-size: 28px;
+      color: #ff9a9e;
+    }
 
-  .separator-icon .fa-star {
-    animation: rotate 4s infinite linear;
-    opacity: 0.7;
-  }
+    .separator-icon .fa-star {
+      animation: rotate 4s infinite linear;
+      opacity: 0.7;
+    }
 
-  /* Animations */
-  @keyframes slideLeft {
-    0% { background-position: -250px 0; }
-    100% { background-position: 250px 0; }
-  }
+    /* Animations */
+    @keyframes slideLeft {
+      0% { background-position: -250px 0; }
+      100% { background-position: 250px 0; }
+    }
 
-  @keyframes slideRight {
-    0% { background-position: 250px 0; }
-    100% { background-position: -250px 0; }
-  }
+    @keyframes slideRight {
+      0% { background-position: 250px 0; }
+      100% { background-position: -250px 0; }
+    }
 
-  @keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.2); opacity: 0.8; }
-    100% { transform: scale(1); opacity: 1; }
-  }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.2); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 1; }
+    }
 
-  @keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
 
-  /* Glow effect on hover */
-  .separator:hover .separator-icon .fa-certificate {
-    text-shadow: 0 0 15px #ff9a9e;
-    transition: all 0.3s ease;
-  }
-</style>
+    /* Glow effect on hover */
+    .separator:hover .separator-icon .fa-certificate {
+      text-shadow: 0 0 15px #ff9a9e;
+      transition: all 0.3s ease;
+    }
+
+    /* Added space below the "View My Portfolio" button */
+    .btns {
+      margin-bottom: 20px;
+    }
+  </style>
 
   <!-- Certificate Section - Added below the portfolio -->
   <div class="box-container" style="margin-top: 20px;">
@@ -612,10 +616,7 @@
             <a href="https://mounirreda.github.io/Certifications-Gallery-/" class="btn" target="_blank">
               <i class="fas fa-eye"></i> View My Certificates
             </a>
-           
-            </a>
           </div>
-      
         </div>
       </div>
     </div>
