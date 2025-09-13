@@ -485,24 +485,26 @@ on-site training, professional courses, and academic excellence, I bring strong 
 
   <div class="box-container">
     <!-- Portfolio Box -->
-    <a href="https://www.datascienceportfol.io/mounirelhady70" target="_blank" class="box-link">
-      <div class="box tilt">
+    <div class="box tilt">
+      <a href="https://www.datascienceportfol.io/mounirelhady70" target="_blank">
         <img draggable="false" src="./assets/images/projects/Port.jpg" alt="Portfolio Preview" />
-        <div class="content">
-          <div class="tag">
+      </a>
+      <div class="content">
+        <div class="tag">
+          <a href="https://www.datascienceportfol.io/mounirelhady70" target="_blank">
             <h3>MY PORTFOLIO</h3>
-          </div> 
-          <div class="desc">
-            <p> Showing advanced practical work in business intelligence, data analysis. Skilled in analytics tools, data management</p>
-            <div class="btns">
-              <span class="btn">
-                <i class="fas fa-eye"></i> View My Portfolio
-              </span>
-            </div>
+          </a>
+        </div> 
+        <div class="desc">
+          <p> Showing advanced practical work in business intelligence, data analysis. Skilled in analytics tools, data management</p>
+          <div class="btns">
+            <a href="https://www.datascienceportfol.io/mounirelhady70" class="btn" target="_blank">
+              <i class="fas fa-eye"></i> View My Portfolio
+            </a>
           </div>
         </div>
       </div>
-    </a>
+    </div>
   </div>
 
   <!-- Enhanced Attractive Separator -->
@@ -605,36 +607,53 @@ on-site training, professional courses, and academic excellence, I bring strong 
       margin-bottom: 20px;
     }
 
-    /* Make whole box clickable */
-    .box-link {
+    /* Keep images clickable without resizing */
+    .box img {
+      width: 100%;
+      height: auto;
       display: block;
+    }
+
+    .box .tag h3 {
+      margin: 0;
+    }
+
+    .box .tag a {
       text-decoration: none;
       color: inherit;
     }
 
-    .box-link:hover .box {
-      box-shadow: 0 0 20px rgba(110, 69, 226, 0.5);
-      transform: scale(1.02);
-      transition: all 0.3s ease;
+    .box .tag a:hover h3 {
+      color: #6e45e2;
     }
   </style>
 
   <!-- Certificate Section - Added below the portfolio -->
   <div class="box-container" style="margin-top: 20px;">
-    <a href="https://mounirreda.github.io/Certifications-Gallery-/" target="_blank" class="box-link">
-      <div class="box tilt">
+    <div class="box tilt">
+      <a href="https://mounirreda.github.io/Certifications-Gallery-/" target="_blank">
         <img draggable="false" src="./assets/images/projects/Certificate.jpg" alt="Certificate Preview" />
-        <div class="content">
-          <div class="tag">
+      </a>
+      <div class="content">
+        <div class="tag">
+          <a href="https://mounirreda.github.io/Certifications-Gallery-/" target="_blank">
             <h3>My Certificates</h3>
-          </div> 
-          <div class="desc">
-            <p>Certified Skills and Achievements: Expertise in Data Analysis, Business Intelligence, Cloud Solutions, Digital Marketing and Networking </p>
-            <div class="btns">
-              <span class="btn">
-                <i class="fas fa-eye"></i> View My Certificates
-              </span>
-            </div>
+          </a>
+        </div> 
+        <div class="desc">
+          <p>Certified Skills and Achievements: Expertise in Data Analysis, Business Intelligence, Cloud Solutions, Digital Marketing and Networking </p>
+          <div class="btns">
+            <a href="https://mounirreda.github.io/Certifications-Gallery-/" class="btn" target="_blank">
+              <i class="fas fa-eye"></i> View My Certificates
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- work project section ends -->
 
 
 <!-- experience section starts -->
